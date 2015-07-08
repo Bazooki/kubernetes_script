@@ -13,13 +13,22 @@ class wechat
 
     public function getAccessToken(){
 
-        if(!isset($_SESSION['AccessToken']) && !isset($_SESSION['expires'])){
-            if($_SESSION['expires'] > time()){
+
+        if(!isset($_SESSION['expires'])){
+            $_SESSION['expires'] = 0;
+        }
+        echo $_SESSION['expires'];
+
+        if(!isset($_SESSION['AccessToken']) ){
+
+            if(!($_SESSION['expires'] > time())){
+
                 $url = 'https://api.wechat.com/cgi-bin/token?grant_type=client_credential&appid=' . self::APP_ID . '&secret=' . self::APP_SECRET;
                 $response = file_get_contents($url);
                 $response = json_decode($response, true);
                 $_SESSION['AccessToken'] =  $response['access_token'];
                 $_SESSION['expires'] = time() + ($response['expires_in'] - 1000);
+
             }
         }
         return $_SESSION['AccessToken'];
