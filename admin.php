@@ -26,7 +26,7 @@ echo $accessToken;
 //var_dump($_SESSION);
 
 
-    $touser = 'ohwRntyT5ZxXDaOdj0-L6uCfIcGE';
+    $touser = 'ohwRntw2I99RevkoGUamDPl9PDe4';
 
     $jsonOutput = json_encode(array(
         'touser' => $touser,

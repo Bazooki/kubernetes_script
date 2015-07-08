@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e1d43d5-7de8-4197-bc22-5002ba1d2649" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wechat.php" afterPath="$PROJECT_DIR$/wechat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin.php" afterPath="$PROJECT_DIR$/admin.php" />
     </list>
     <ignored path="kubernetes_script.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,24 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1095">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.74833703" vertical-offset="15" max-vertical-offset="1095">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
               <folding>
-                <marker date="1436347416000" expanded="true" signature="139:189" placeholder="UPDATE count..." />
-                <marker date="1436347416000" expanded="true" signature="226:247" placeholder="SELECT * FRO..counter..." />
-                <marker date="1436347416000" expanded="true" signature="925:1109" placeholder="INSERT INTO ..." />
+                <marker date="1436353908000" expanded="true" signature="139:189" placeholder="UPDATE count..." />
+                <marker date="1436353908000" expanded="true" signature="226:247" placeholder="SELECT * FRO..counter..." />
+                <marker date="1436353908000" expanded="true" signature="925:1109" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wechat.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wechat.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wechat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="2805">
+            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="2805">
               <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <marker date="1436349139000" expanded="true" signature="1627:2023" placeholder="..." />
@@ -70,8 +69,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin.php" />
         <option value="$PROJECT_DIR$/wechat.php" />
+        <option value="$PROJECT_DIR$/admin.php" />
       </list>
     </option>
   </component>
@@ -80,7 +79,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
+    <option name="x" value="1920" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -108,7 +107,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -129,6 +127,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,15 +149,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -174,8 +173,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
-    <editor active="false" />
+    <frame x="1920" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -183,7 +182,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.094249204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25452608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -224,9 +223,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1095">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
           <folding>
-            <marker date="1436347416000" expanded="true" signature="139:189" placeholder="UPDATE count..." />
-            <marker date="1436347416000" expanded="true" signature="226:247" placeholder="SELECT * FRO..counter..." />
-            <marker date="1436347416000" expanded="true" signature="925:1109" placeholder="INSERT INTO ..." />
+            <marker date="1436353908000" expanded="true" signature="139:189" placeholder="UPDATE count..." />
+            <marker date="1436353908000" expanded="true" signature="226:247" placeholder="SELECT * FRO..counter..." />
+            <marker date="1436353908000" expanded="true" signature="925:1109" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -254,16 +253,34 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1095">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
           <folding>
-            <marker date="1436347416000" expanded="true" signature="139:189" placeholder="UPDATE count..." />
-            <marker date="1436347416000" expanded="true" signature="226:247" placeholder="SELECT * FRO..counter..." />
-            <marker date="1436347416000" expanded="true" signature="925:1109" placeholder="INSERT INTO ..." />
+            <marker date="1436353908000" expanded="true" signature="139:189" placeholder="UPDATE count..." />
+            <marker date="1436353908000" expanded="true" signature="226:247" placeholder="SELECT * FRO..counter..." />
+            <marker date="1436353908000" expanded="true" signature="925:1109" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wechat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="2805">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2805">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436349139000" expanded="true" signature="1627:2023" placeholder="..." />
+            <marker date="1436349139000" expanded="true" signature="2266:2358" placeholder="..." />
+            <marker date="1436349139000" expanded="true" signature="2490:2656" placeholder="..." />
+            <marker date="1436349139000" expanded="true" signature="2831:3274" placeholder="..." />
+            <marker date="1436349139000" expanded="true" signature="3449:3541" placeholder="..." />
+            <marker date="1436349139000" expanded="true" signature="3575:3835" placeholder="..." />
+            <marker date="1436349139000" expanded="true" signature="4033:4365" placeholder="..." />
+            <marker date="1436349139000" expanded="true" signature="4403:4870" placeholder="..." />
+            <marker date="1436349139000" expanded="true" signature="4774:4846" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="2805">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <marker date="1436349139000" expanded="true" signature="1627:2023" placeholder="..." />
@@ -275,6 +292,18 @@
             <marker date="1436349139000" expanded="true" signature="4033:4365" placeholder="..." />
             <marker date="1436349139000" expanded="true" signature="4403:4870" placeholder="..." />
             <marker date="1436349139000" expanded="true" signature="4774:4846" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74833703" vertical-offset="15" max-vertical-offset="1095">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <folding>
+            <marker date="1436353908000" expanded="true" signature="139:189" placeholder="UPDATE count..." />
+            <marker date="1436353908000" expanded="true" signature="226:247" placeholder="SELECT * FRO..counter..." />
+            <marker date="1436353908000" expanded="true" signature="925:1109" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
