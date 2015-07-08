@@ -21,6 +21,7 @@ $now = time();
 $wechat = new wechat();
 
 $accessToken = $wechat->getAccessToken();
+echo $accessToken;
 
 //var_dump($_SESSION);
 

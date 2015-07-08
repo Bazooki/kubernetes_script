@@ -13,27 +13,16 @@ class wechat
 
     public function getAccessToken(){
 
-        $now = time();
-        // Check token expiry and gets new if expired
-
-        $memcache = new Memcache;
-
-        $accessToken = $memcache->get('accessToken');
-        $tokenExpires = $memcache->get('tokenExpires');
-
-        if ((!isset($accessToken) && !empty($accessToken)) || $now >= $tokenExpires){
-
-
-            $url = 'https://api.wechat.com/cgi-bin/token?grant_type=client_credential&appid=' . self::APP_ID . '&secret=' . self::APP_SECRET;
-            $response = file_get_contents($url);
-            $tokenObj = json_decode($response);
-            $expires = (int)$tokenObj->expires_in + (int)$now;
-
-            $memcache->set('accessToken', $tokenObj->access_token);
-            $memcache->set('tokenExpires', $expires);
+        if(!isset($_SESSION['AccessToken']) && !isset($_SESSION['expires'])){
+            if($_SESSION['expires'] > time()){
+                $url = 'https://api.wechat.com/cgi-bin/token?grant_type=client_credential&appid=' . self::APP_ID . '&secret=' . self::APP_SECRET;
+                $response = file_get_contents($url);
+                $response = json_decode($response, true);
+                $_SESSION['AccessToken'] =  $response['access_token'];
+                $_SESSION['expires'] = time() + ($response['expires_in'] - 1000);
+            }
         }
-
-        return $memcache->get('accessToken');
+        return $_SESSION['AccessToken'];
 
     }
 
