@@ -4,15 +4,15 @@ include 'config.php';
 include 'database.php';
 include 'wechat.php';
 
-$db = new Database($dbconfig);
-
-$sql =  "UPDATE counter SET count_number = count_number + 1";
-$db->query($sql);
-
-$sql =  "SELECT * FROM counter";
-$results = $db->query($sql);
-
-$count = $db->getResults($results);
+//$db = new Database($dbconfig);
+//
+//$sql =  "UPDATE counter SET count_number = count_number + 1";
+//$db->query($sql);
+//
+//$sql =  "SELECT * FROM counter";
+//$results = $db->query($sql);
+//
+//$count = $db->getResults($results);
 
 $now = time();
 
@@ -41,8 +41,8 @@ $accessToken = $wechat->getAccessToken();
 // end reply
 
 
-    $sql = 'INSERT INTO xml_logs (`xml_in`, `xml_out`) VALUES ("code: '.$test->errcode.'  message: '.$test->errmsg.' counter: '.$count['count_number'].'", "<pre>'.var_export($test, true).'</pre>")';
-    $db->query($sql);
+//    $sql = 'INSERT INTO xml_logs (`xml_in`, `xml_out`) VALUES ("code: '.$test->errcode.'  message: '.$test->errmsg.' counter: '.$count['count_number'].'", "<pre>'.var_export($test, true).'</pre>")';
+//    $db->query($sql);
     //Echo response from API
     echo '<pre>';
     var_dump($test);
